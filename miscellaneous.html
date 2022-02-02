@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Comics Creator specialized in cute, soulful fantasy characters and stories.">
+  <meta name="keywords" content="comics,webcomics,indie comics,graphic novel,fantasy,portfolio,art,visual development,visdev,Mari Limmy,storytelling,character design,storyboard,illustration,painting">
+  <title>Mari Limmy's Portfolio</title>
+  <link rel="stylesheet" href="/public/css/normalize.css">
+  <link rel="stylesheet" href="/public/css/home.css">
+  <link rel="stylesheet" href="public/css/simple-lightbox.css">
+</head>
+
+<body>
+  <nav class="main-nav">
+    <span class="logo">
+      <a href="/#">
+        <img src="public/img/logo.svg" alt="Mari Limmy logo">
+      </a>
+    </span>
+    <button class="toggle-nav" aria-label="toggle-nav">
+      <span class="icon"></span>
+    </button>
+    <div class="bar-nav">
+      <ul class="sections">
+        <li>
+          <a href="/#comics">comics</a>
+        </li>
+        <li>
+          <a href="/#portfolio">portfolio</a>
+        </li>
+        <li>
+          <a href="/#about">about</a>
+        </li>
+      </ul>
+      <div class="support">
+        <a class="coffee" href='https://ko-fi.com/M4M7KO4H' target='_blank' rel="noopener">
+          <img alt="buy me a coffee" src='https://az743702.vo.msecnd.net/cdn/kofi4.png?v=0'
+            alt='Buy Me a Coffee at ko-fi.com' />
+        </a>
+        <a class="patreon" href="https://www.patreon.com/marilimmy" role="button" target="_blank" rel="noopener">
+          <svg viewBox="0 0 569 546" xmlns="http://www.w3.org/2000/svg">
+            <g>
+              <circle data-fill="1" id="Oval" cx="362.589996" cy="204.589996" r="204.589996"></circle>
+              <rect data-fill="2" id="Rectangle" x="0" y="0" width="100" height="545.799988"></rect>
+            </g>
+          </svg>
+          <div class="text">Become a patron</div>
+        </a>
+      </div>
+    </div>
+  </nav>
+  <script>  document.querySelectorAll('.toggle-nav, .bar-nav .sections li a').forEach(e => e.addEventListener('click', () => { if (window.innerWidth < 992) { const nav = document.querySelector('.bar-nav'); nav.style.display = nav.style.display === '' ? 'block' : ''; } }))
+  </script>
+  <nav class="gallery-nav">
+    <ul class="list">
+      <li>
+        <a href="/incipit.html" class="">incipit</a>
+      </li>
+      <li>
+        <a href="/concept.html" class="">concept art</a>
+      </li>
+      <li>
+        <a href="/illustration.html" class="">illustration</a>
+      </li>
+      <li>
+        <a href="/client.html" class="">client work</a>
+      </li>
+      <li>
+        <a href="/miscellaneous.html" class="selected">miscellaneous</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="gallery">
+    <a href="/public/img/gallery/miscellaneous/tinman.jpg">
+      <img src="/public/img/gallery/miscellaneous/tinman_thumb.jpg" alt="image0" title="Character design by Justin Rodrigues, painting by Mari González Curia - 2018" />
+    </a>
+    <a href="/public/img/gallery/miscellaneous/lion.jpg">
+      <img src="/public/img/gallery/miscellaneous/lion_thumb.jpg" alt="image1" title="Character design by Chris Oatley and Justin Rodrigues, painting by Mari González Curia - 2018" />
+    </a>
+    <a href="/public/img/gallery/miscellaneous/Paint_01.jpg">
+      <img src="/public/img/gallery/miscellaneous/Paint_01_thumb.jpg" alt="image2" title="Lineart by Maike Oatley, painting by Mari González Curia - 2018" />
+    </a>
+    <a href="/public/img/gallery/miscellaneous/Paint_02.jpg">
+      <img src="/public/img/gallery/miscellaneous/Paint_02_thumb.jpg" alt="image3" title="Lineart by Maike Oatley, painting by Mari González Curia - 2018" />
+    </a>
+    <a href="/public/img/gallery/miscellaneous/GrowAnew.jpg">
+      <img src="/public/img/gallery/miscellaneous/GrowAnew_thumb.jpg" alt="image4" title="Grow Anew', Submission for the 3rd World Manga Senbatsu (2020)" />
+    </a>
+    <a href="/public/img/gallery/miscellaneous/tramitandojusticia.jpg">
+      <img src="/public/img/gallery/miscellaneous/tramitandojusticia_thumb.jpg" alt="image5" title="Tramitando Justicia' ('Processing Justice'), comic for the exhibit 'Memoria Ilustrada: historietas para no olvidar' ('Illustrated Memory, comics to not forget') at Centro Cultural Recoleta, Bs.As., Argentina. Published in a zine by the same name - July 2011" />
+    </a>
+    <a href="/public/img/gallery/miscellaneous/Story_02.jpg">
+      <img src="/public/img/gallery/miscellaneous/Story_02_thumb.jpg" alt="image1"
+        title="Storyboard based on Comic 'Tramitando Justicia', Team project for Cátedra Groisman, Graphic Design, U.B.A. - 2011" />
+    </a>
+    <a href="/public/img/gallery/miscellaneous/Story_01.jpg">
+      <img src="/public/img/gallery/miscellaneous/Story_01_thumb.jpg" alt="image0"
+        title="Storyboard for the video 'Mi Aventura' ('My Adventure'), screened on July 2012 at Buenos Aires City Legislature - 2012" />
+    </a>
+    <a href="/public/img/gallery/miscellaneous/MiscBuildings.jpg">
+      <img src="/public/img/gallery/miscellaneous/MiscBuildings_thumb.jpg" alt="image18" title="Miscellaneous Buildng Designs." />
+    </a>
+  </div>
+  <script src="/public/js/simple-lightbox.min.js"></script>
+  <script>new SimpleLightbox('.gallery a', { history: false, captionPosition: 'outside' });</script>
+  <footer>Copyright © María Paula Gonzales Curia 2022</footer>
+</body>
+
+</html>
