@@ -1,3 +1,3 @@
 #! /bin/sh
-cd /Users/mari/Portfolio\ Update\ 2022/marilimmy.github.io
-python -m SimpleHTTPServer
+cd "/Users/mari/Proyectos y Arte/Portfolio Update 2024/marilimmy.github.io"
+python3 -m http.server

@@ -27,7 +27,7 @@
 
 :root {
 	--dark-blue: #042335;
-	--light-blue: #17c7a0;
+	--light-blue: #C5F0E2;
 	--max-width: 1180px
 }
 
@@ -179,56 +179,23 @@ body {
 	margin: 0 auto 0.5rem
 }
 
+.main-nav .bar-nav .support .cafecito {
+	display: inline-block;
+	margin: .5rem 0 0 0;
+}
+
 @media (min-width: 992px) {
 	.main-nav .bar-nav .support .coffee {
 		margin: 0 .5rem
+	}
+
+	.main-nav .bar-nav .support .cafecito {
+		margin: 0 0 0 .5rem
 	}
 }
 
 .main-nav .bar-nav .support .coffee img {
 	width: 100%
-}
-
-.main-nav .bar-nav .support .patreon {
-	width: 142px;
-	height: 36px;
-	box-sizing: border-box;
-	display: flex;
-	margin: auto;
-	justify-content: space-around;
-	align-items: center;
-	padding: 0.3rem;
-	background-color: #e85b46;
-	border-radius: 3px;
-	text-decoration: none;
-	text-transform: none
-}
-
-@media (min-width: 992px) {
-	.main-nav .bar-nav .support .patreon {
-		margin: 0 .5rem
-	}
-}
-
-.main-nav .bar-nav .support .patreon svg {
-	align-self: center;
-	fill: transparent;
-	stroke-width: 1.2px;
-	height: 0.75rem;
-	width: 0.75rem
-}
-
-.main-nav .bar-nav .support .patreon svg circle {
-	fill: #fff
-}
-
-.main-nav .bar-nav .support .patreon svg rect {
-	fill: #052d49
-}
-
-.main-nav .bar-nav .support .patreon .text {
-	color: #ffffff;
-	font-size: 0.8rem
 }
 
 .section {
@@ -367,12 +334,10 @@ body {
 
 .main main .section.accent {
 	background-color: var(--light-blue);
-	color: #ffffff
+	color: var(--dark-blue)
 }
 
-.main main .section.accent .line {
-	background-color: #ffffff
-}
+
 
 .main main .section.limit {
 	max-width: var(--max-width);
@@ -419,13 +384,10 @@ body {
 		margin: .5rem
 	}
 	.main main .portfolios .item:nth-child(1),
-	.main main .portfolios .item:nth-child(2) {
-		width: 48%
-	}
+	.main main .portfolios .item:nth-child(2),
 	.main main .portfolios .item:nth-child(3),
-	.main main .portfolios .item:nth-child(4),
-	.main main .portfolios .item:nth-child(5) {
-		width: 31%
+	.main main .portfolios .item:nth-child(4) {
+		width: 48%
 	}
 }
 
@@ -458,14 +420,14 @@ body {
 	.main main .about {
 		display: flex;
 		align-items: center;
-		max-width: 992px;
+		max-width: var(--max-width);
 		margin: auto
 	}
 }
 
 @media (min-width: 992px) {
 	.main main .about .left {
-		width: 650px
+		width: 200%
 	}
 }
 
@@ -480,12 +442,12 @@ body {
 }
 
 .main main .about .right .text {
-	font-weight: 400
+	font-weight: normal
 }
 
 @media (min-width: 992px) {
 	.main main .about .right .text {
-		font-size: .9rem;
+		font-size: 1rem;
 		padding-left: 1rem
 	}
 }
@@ -554,7 +516,8 @@ footer {
 }
 
 .gallery-nav .list li a.selected {
-	background-color: var(--light-blue)
+	background-color: var(--light-blue);
+	color: var(--dark-blue)
 }
 
 .gallery {
