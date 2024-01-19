@@ -27,7 +27,7 @@
 
 :root {
 	--dark-blue: #042335;
-	--light-blue: #C5F0E2;
+	--light-blue: #C3E6D9;
 	--max-width: 1180px
 }
 
@@ -427,7 +427,7 @@ body {
 
 @media (min-width: 992px) {
 	.main main .about .left {
-		width: 200%
+		width: 180%
 	}
 }
 
