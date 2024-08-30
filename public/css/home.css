@@ -355,7 +355,7 @@ body {
 @media (min-width: 992px) {
 	.main main .comics a {
 		width: 30%;
-		margin: 0 1rem
+		margin: 0 0.3rem
 	}
 }
 
