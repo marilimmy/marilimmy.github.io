@@ -445,6 +445,16 @@ body {
 	font-weight: normal
 }
 
+.main main .about .right .text a {
+	color:rgb(173, 0, 84);
+	text-decoration: none;
+	
+}
+
+.main main .about .right .text a:visited {
+	color:#005c9e
+}
+
 @media (min-width: 992px) {
 	.main main .about .right .text {
 		font-size: 1rem;
